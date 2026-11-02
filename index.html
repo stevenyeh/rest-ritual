@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Rest Ritual</title>
+  <meta name="description" content="Prototype storefront for Rest Ritual, an acupressure mat and pillow set.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="proto">Prototype store: not taking orders yet. Product details marked <span class="tbd">TBD</span> are still being confirmed.</div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"></span>Rest Ritual</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#product">Shop</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <h1>Twenty minutes to unwind.</h1>
+          <p class="lead">The acupressure mat and pillow set for evenings when your mind won't switch off.</p>
+          <div class="cta-row">
+            <a class="btn" href="#product">Shop the Set · $59.99</a>
+            <a class="btn btn-ghost" href="#how">How it works</a>
+          </div>
+          <ul class="trust">
+            <li>Free US shipping</li>
+            <li>Ships from the US in 3–7 business days</li>
+            <li>30-day returns</li>
+          </ul>
+        </div>
+        <div class="mat-art" aria-hidden="true">
+          <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="flowers" width="32" height="32" patternUnits="userSpaceOnUse">
+                <g fill="var(--dot)">
+                  <circle cx="16" cy="16" r="3.2"/>
+                  <circle cx="16" cy="8.5" r="2.4"/><circle cx="16" cy="23.5" r="2.4"/>
+                  <circle cx="8.5" cy="16" r="2.4"/><circle cx="23.5" cy="16" r="2.4"/>
+                  <circle cx="10.7" cy="10.7" r="2"/><circle cx="21.3" cy="21.3" r="2"/>
+                  <circle cx="21.3" cy="10.7" r="2"/><circle cx="10.7" cy="21.3" r="2"/>
+                </g>
+              </pattern>
+            </defs>
+            <rect x="40" y="70" width="320" height="200" rx="18" fill="var(--accent)"/>
+            <rect x="52" y="82" width="296" height="176" rx="12" fill="url(#flowers)"/>
+            <rect x="90" y="22" width="220" height="56" rx="28" fill="var(--accent)"/>
+            <rect x="102" y="32" width="196" height="36" rx="18" fill="url(#flowers)"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="how">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="num">1</div>
+            <h3>Lie down</h3>
+            <p>Put the mat on your bed or the floor and settle in with the pillow under your neck.</p>
+          </div>
+          <div class="step">
+            <div class="num">2</div>
+            <h3>Breathe</h3>
+            <p>The first two minutes feel intense. After that, most people feel warm and heavy.</p>
+          </div>
+          <div class="step">
+            <div class="num">3</div>
+            <h3>Make it a ritual</h3>
+            <p>Try 10–20 minutes before bed or after a long day at your desk.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="product">
+      <div class="wrap product">
+        <div class="mat-art" aria-hidden="true">
+          <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+            <rect x="60" y="40" width="280" height="220" rx="18" fill="var(--accent)"/>
+            <rect x="72" y="52" width="256" height="196" rx="12" fill="url(#flowers)"/>
+          </svg>
+        </div>
+        <div>
+          <h2>Rest Ritual Acupressure Mat &amp; Pillow Set</h2>
+          <p class="price">$59.99</p>
+          <p class="price-note">Free standard shipping in the US</p>
+          <p>A mat and pillow covered in thousands of tiny pressure points, made for winding down. Lie back for 20 minutes and let the day go.</p>
+          <ul class="checklist">
+            <li>Acupressure mat <span class="tbd">size TBD</span> with <span class="tbd">point count TBD</span> pressure points</li>
+            <li>Matching neck pillow</li>
+            <li>Removable, washable cotton cover <span class="tbd">TBD</span></li>
+            <li>Carry bag <span class="tbd">TBD</span></li>
+          </ul>
+          <button class="btn" type="button" id="buy">Add to cart</button>
+          <p class="care">For relaxation only. This is not a medical device and isn't intended to diagnose, treat or cure any condition. See the FAQ for who shouldn't use the mat.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block faq" id="faq">
+      <div class="wrap">
+        <h2>Questions</h2>
+        <details>
+          <summary>Does it hurt?</summary>
+          <p>The first few minutes feel prickly, and that's normal. Start on a thin shirt or a bed, then move to bare skin when you're ready.</p>
+        </details>
+        <details>
+          <summary>How long should I use it?</summary>
+          <p>Start with 5–10 minutes and work up to 20.</p>
+        </details>
+        <details>
+          <summary>Who shouldn't use it?</summary>
+          <p>Don't use the mat if you're pregnant, have a skin condition, a bleeding disorder or a heart condition, or are diabetic with reduced sensation, unless your doctor says it's OK. If you're unsure, ask your doctor first.</p>
+        </details>
+        <details>
+          <summary>When will it arrive?</summary>
+          <p>Orders ship within 1–2 business days and arrive in 3–7 business days after that. See the <a href="shipping.html">shipping policy</a>.</p>
+        </details>
+        <details>
+          <summary>Can I return it?</summary>
+          <p>Yes, unused sets can be returned within 30 days of delivery. See the <a href="returns.html">returns policy</a>.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Rest Ritual · Prototype</span>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="shipping.html">Shipping</a>
+        <a href="returns.html">Returns</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="proto-dialog">
+    <h3>This store is a prototype</h3>
+    <p>Rest Ritual isn't taking orders yet. Nothing has been added to a cart and no payment will be collected.</p>
+    <form method="dialog"><button class="btn">Got it</button></form>
+  </dialog>
+
+  <script>
+    document.getElementById("buy").addEventListener("click", function () {
+      document.getElementById("proto-dialog").showModal();
+    });
+  </script>
+</body>
+</html>
